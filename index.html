@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1.0">
+        <title>Atividade de desenvolvimento web</title>
+        <style>
+            main{
+                border: 1px solid black;
+                height: auto;
+            }
+
+            .flex-container{
+                display: flex;
+                justify-content: space-between;
+            }
+            
+            div{
+            height: 100px;
+            width: 100px;
+            font-size: 30px;
+            }
+
+            #coluna1{
+                align-self: flex-start;
+                background-color: rgb(221, 114, 132);
+                flex: 1;
+                border: 1px solid black;
+            }
+            
+            #coluna2{
+                align-self: flex-start;
+                background-color: rgb(109, 228, 125);
+                flex: 1;
+                border: 1px solid black;
+            }
+
+            #coluna3{
+                align-self: flex-start;
+                background-color: rgb(112, 176, 219);
+                flex: 1;
+                border: 1px solid black;
+            }
+        </style>
+    </head>
+    <body>
+        <main class="flex-container">
+            <div id="coluna1">Coluna 1</div>
+            <div id="coluna2">Coluna 2</div>
+            <div id="coluna3">Coluna 3</div>
+        </main>
+        <a href="Exercicio2.html">Exercício2</a>
+    </body>
+</html>

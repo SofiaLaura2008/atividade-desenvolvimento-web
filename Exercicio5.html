@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Atividade de desenvolvimento web</title>
+        <style>
+            body{
+                display: flex;
+                flex-direction: column;
+                margin: 0;
+                padding: 0;
+                height: 100%;
+            }
+
+            header{
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                background-color: rgb(221, 114, 132);
+                height: 50px;
+                width: 100%;
+            }
+
+            main{
+                border: 1px solid black;
+                flex-direction: row;
+                display: flex;
+                flex: 1;
+                height: 80px;
+            }
+
+            footer{
+                justify-content: center;
+                align-items: center;
+                display: flex;
+                background-color: rgb(221, 114, 132);
+                height: 50px;
+                width: 100%;
+            }
+            
+            div{
+                width: 100px;
+                font-size: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+            }
+
+            .lateral{
+                width: 200px;
+                height: 100vh;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-direction: column;
+                background-color: rgb(112, 176, 219);
+            }
+            
+            .conteudoPrincipal{
+                background-color: rgb(109, 228, 125);
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                flex-grow: 1;
+
+            }
+
+            .item1{
+                margin: 10px 0;
+            }
+            
+            .item2{
+                margin: 10px 0;
+            }
+            .item3{
+                margin: 10px 0;
+            }
+            .item4{
+                margin: 10px 0;
+            }
+        </style>
+    </head>
+    <body>
+        <header>Cabeçalho</header>
+        <main>
+            <div class="lateral">
+                barra lateral
+                <div class="item1">Item 1</div>
+                <div class="item2">Item 2</div>
+                <div class="item3">Item 3</div>
+                <div class="item4">Item 4</div>
+            </div>
+            <div class ="conteudoPrincipal">
+                Área do conteúdo principal
+            </div>
+        </main>
+        <footer>Rodapé</footer>
+        <a href="Exercicio4.html">Página anterior</a>
+    </body>
+</html>
